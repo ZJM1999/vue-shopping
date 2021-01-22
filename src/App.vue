@@ -1,15 +1,22 @@
 <template>
-  <div>
-    <h1>123</h1>
+  <div class="header">
+    <mt-header fixed title="AppMAll"></mt-header>
+
+    <tabbar></tabbar>
   </div>
 </template>
 
 <script>
+import tabbar from './views/tabbar.vue'
 export default {
-  
+  components:{
+    tabbar
+  }
 }
 </script>
 
-<style lang="" scope>
-  
+<style lang="" scoped>
+  .header{
+    padding-top: 40px;
+  }
 </style>
