@@ -10,7 +10,7 @@ module.exports = {
   module:{
     rules:[
       {test:/\.css$/,use:['style-loader','css-loader']},
-      {test:/\.scss$/,use:['style-loader','css-loader','sass-loader']},
+      {test:/\.scss$/,use:['style-loader','css-loader','less-loader']},
       {test:/\.vue$/,use:'vue-loader'},
       {test:/\.(eot|svg|ttf|woff|woff2)(\?\S*)?$/,use:'file-loader'},
       {test:/\.js$/,use:'babel-loader',exclude:/node_modules/}
