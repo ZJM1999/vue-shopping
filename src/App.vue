@@ -24,6 +24,7 @@ export default {
   .header{
     height: 100vh;
     padding-top: 40px;
+    padding-bottom: 50px;
     overflow-x: hidden;
     background-color: #ffff ;
   }

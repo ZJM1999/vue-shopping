@@ -9,6 +9,7 @@ import memberComponent from './components/memberComponent.vue'
 import cartComponent from './components/cartComponent.vue'
 import searchComponent from './components/searchComponent.vue'
 import newsComponent from './components/newsComponent.vue'
+import newsContentComponent from './components/newsContentComponent.vue'
 
 const router = new VueRouter({
   routes:[
@@ -18,6 +19,7 @@ const router = new VueRouter({
     {path:'/cart',component:cartComponent},
     {path:'/search',component:searchComponent},
     {path:'/news',component:newsComponent},
+    {path:'/newsContent/:id',component:newsContentComponent},
   ],
   linkActiveClass:'mui-active'
 })
